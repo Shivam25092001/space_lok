@@ -1,0 +1,141 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background: black;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+canvas {
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: -1;
+}
+
+#login{
+  position: absolute;
+  top: 0vh;
+  right: 0vh;
+  color: white;
+  padding-top: 15px;
+  padding-right: 25px;
+  padding-left: 25px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+#logo{
+  max-height: 80px;
+  padding-left: 25px;
+}
+
+#contact{
+  position: absolute;
+  bottom: 3vh;
+  right: 0vh;
+  color: white;
+  padding-top: 15px;
+  padding-right: 25px;
+  padding-left: 25px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.nav{
+  display: flex;
+  overflow: hidden;
+  padding-top: 5px;
+}
+
+.nav li{
+  float: left;
+  list-style-type: none;
+}
+
+.nav li a{
+  display: block;
+  color: white;
+  padding-top: 15px;
+  padding-right: 25px;
+  padding-left: 25px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+}
+.nav li a:hover {
+  font-size: 22px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #aaaaaac0, 0 0 40px #aaaaaac0 ;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #008799cb, 0 0 40px #008799cb, 0 0 50px #008799cb ;
+  }
+}
+
+/* ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+} */
+
+
+
+
+/* .text-box {
+  font-size: 60px;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 7px;
+  word-spacing: 12px;
+  text-transform: uppercase;
+  color:rgb(238, 238, 238);
+}
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-direction: row;
+}
+.button {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 15px;
+  margin-left:20px;
+  margin-right:20px;
+  word-spacing: normal;
+  letter-spacing: 5px;
+  border: 1px solid white;
+  background: black;
+  cursor: pointer;
+}  */
