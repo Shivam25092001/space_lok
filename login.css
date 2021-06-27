@@ -4,7 +4,8 @@ body {
   margin: 0;
   background: black;
   overflow: hidden;
-  /* display: flex; */
+  display: flex; 
+  flex-direction: row;
   /* justify-content: center;
   align-items: center; */
 }
@@ -44,7 +45,18 @@ canvas {
     padding: 40px;
     position: absolute;
     top: 10%;
-    left: 30%;
+    right: 10%;
+    text-align: center;
+    transition: 0.25s;
+    margin-top: 100px;
+    font-family: 'Raleway', sans-serif;
+}
+.box2 {
+    width: 500px;
+    padding: 40px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
     text-align: center;
     transition: 0.25s;
     margin-top: 100px;
@@ -58,7 +70,9 @@ canvas {
 }
 
 .box input[type="text"],
-.box input[type="password"] {
+.box input[type="password"],
+.box2 input[type="text"],
+.box2 input[type="password"] {
     border: 0;
     background: none;
     display: block;
@@ -75,7 +89,7 @@ canvas {
     font-weight: bolder;
 }
 
-.box h1 {
+.box h1, .box2 h1 {
     color: white;
     text-transform: uppercase;
     font-weight: 500;
@@ -83,14 +97,17 @@ canvas {
 }
 
 .box input[type="text"]:focus,
-.box input[type="password"]:focus {
+.box input[type="password"]:focus,
+.box2 input[type="text"]:focus,
+.box2 input[type="password"]:focus {
     width: 300px;
     border-color: #2ecc71;
     font-family: 'Raleway', sans-serif;
     font-weight: bolder;
 }
 
-.box input[type="submit"] {
+.box input[type="submit"],
+.box2 input[type="submit"] {
     border: 0;
     background: none;
     display: block;
@@ -135,11 +152,11 @@ ul.social-network li {
 }
 
 .social-network a.icoTwitter:hover {
-    background-color: #33ccff
+    background-color: #cd486b
 }
 
 .social-network a.icoGoogle:hover {
-    background-color: #BD3518
+    background-color: #0077b5
 }
 
 .social-network a.icoFacebook:hover i,
@@ -161,7 +178,8 @@ a.socialIcon:hover,
     text-align: center;
     width: 50px;
     height: 50px;
-    font-size: 20px
+    font-size: 20px;
+    background-color: #fff;
 }
 
 .social-circle li i {
@@ -180,4 +198,24 @@ a.socialIcon:hover,
     color: #fff;
     transition: all 0.8s;
     transition: all 0.8s
+}
+
+.sociallinks img{
+    margin-bottom: 30px;
+    max-width: 50px;
+    opacity: 1;
+}
+
+.buttoncpp {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }

@@ -7,6 +7,7 @@ body {
   /* display: flex; */
   /* justify-content: center;
   align-items: center; */
+  font-family: "Raleway", sans-serif;
 }
 
 canvas {
@@ -160,4 +161,17 @@ label.error {
   font-weight: bold;
   font-size: 12px;
   color: #000;
+}
+
+.sociallinks img{
+  padding-inline: 20px;
+  margin-bottom: 30px;
+  height: 35px;
+  opacity: 0.7;
+}
+.sociallinks img:hover{
+  padding-inline: 20px;
+  margin-bottom: 30px;
+  height: 45px;
+  opacity: 1;
 }
