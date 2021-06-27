@@ -72,21 +72,24 @@ body {
     height: 400px;
 }
 .a1 {
-    background-image: url("defencespace2020.jpg");
+    background-image: url("eventsPic/IAASS.jpg");
 }
 .a2 {
-    background-image: url("555.jpg")
+    background-image: url("eventsPic/spacehealth.jpg")
 }
 .a3 {
-    background-image: url("defencespace2020.jpg");
+    background-image: url("eventsPic/space-settlement.png");
     color: #fff;
 }
 .a4 {
-    background-image: url("555.jpg");
+    background-image: url("eventsPic/555.jpg");
     color: #fff;
 }
 .a5 {
-    background-image: url("defencespace2020.jpg"); 
+    background-image: url("eventsPic/defencespace2020.jpg"); 
+}
+.a6 {
+    background-image: url("eventsPic/reinventing2021.jpg"); 
 }
 p {
     font-weight: normal;
